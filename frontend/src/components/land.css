@@ -1,0 +1,44 @@
+.index {
+  background-image: radial-gradient(
+    circle,
+    #b39cd0,
+    #a88ccd,
+    #9c7dc9,
+    #906dc6,
+    #845ec2
+  );
+}
+
+/* .side {
+  background:;
+} */
+/* .main .all {
+  background: linear-gradient(#fbeaff, #b39cd0);
+  padding: 20px;
+  border-radius: 20px;
+  color: #00e9d3;
+} */
+.land {
+  height: 100vh;
+}
+
+.rotate-text {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.rotate-90 {
+  transform: rotate(
+    90deg
+  ); /* Rotate the text by 90 degrees when the class is applied */
+}
+
+/* .main {
+  background-color: #191919;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
